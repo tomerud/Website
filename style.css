@@ -1,0 +1,21 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-image: url(./images/annie-spratt-pKpipZVVEC0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  h1 {
+    margin-top: 20px;  /* Adds space between the navigation bar and the h1 element */
+    font-size: 2.5em;  /* Reduces the font size */
+    text-align: center;  /* Centers the text */
+    color: #333;  /* Sets the text color */
+  }
+  #profile-pic {
+    border-radius: 1000%;
+    width: 150px;
+  }
